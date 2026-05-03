@@ -1,47 +1,102 @@
-// pages/api/recommend.js
-import OpenAI from "openai";
+import fs from "fs";
+import path from "path";
+import * as XLSX from "xlsx";
 
 export default async function handler(req, res) {
-  // only accept POST
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method not allowed" });
-  }
-
-  // DEBUG: print small masked snippet so we can confirm it's loaded (won't print whole key)
-  const key = process.env.OPENAI_API_KEY;
-  console.log("DEBUG: OPENAI_API_KEY present:", !!key, "prefix:", key ? key.slice(0,6) + "..." : "N/A");
-
-  if (!key) {
-    console.error("Missing OPENAI_API_KEY — check .env.local and restart dev server");
-    return res.status(500).json({ error: "Server misconfiguration: missing OPENAI_API_KEY" });
-  }
-
-  // create client inside handler (ensures fresh reading of env)
-  const client = new OpenAI({ apiKey: key });
-
   try {
-    const { formData } = req.body || {};
-    if (!formData) return res.status(400).json({ error: "Missing formData in request body" });
+    const { formData } = req.body;
 
-    const prompt = `User skin profile:\n${JSON.stringify(formData, null, 2)}\n\nProvide a short, friendly routine.`;
+    const skinType = formData.skinType;
+    const concerns = formData.skinConcerns || [];
 
-    // Use chat completion via the installed SDK interface
-    const completion = await client.chat.completions.create({
-      model: "gpt-4o-mini", // change if you need a different model
-      messages: [
-        { role: "system", content: "You are a skincare expert." },
-        { role: "user", content: prompt }
-      ],
-      max_tokens: 400,
+    // READ EXCEL FILE
+    const filePath = path.join(process.cwd(), "public/data/database.xlsx");
+    const file = fs.readFileSync(filePath);
+    const workbook = XLSX.read(file, { type: "buffer" });
+
+    const sheet = workbook.Sheets[workbook.SheetNames[0]];
+    const products = XLSX.utils.sheet_to_json(sheet);
+
+    // FILTER PRODUCTS
+    const matchedProducts = products.filter((p) => {
+      const skin = String(p.skin_type || "").toLowerCase();
+      const concernsText = String(p.concerns || "").toLowerCase();
+
+      const concernsList = concernsText.split(",").map((c) => c.trim());
+
+      return (
+        skin === skinType.toLowerCase() &&
+        concerns.some((c) => concernsList.includes(c.toLowerCase()))
+      );
     });
 
-    const recommendation = completion?.choices?.[0]?.message?.content ?? "No recommendation returned";
+    if (!matchedProducts.length) {
+      return res.status(404).json({
+        error: "No matching product found"
+      });
+    }
+
+    // BUILD PRODUCT LIST
+    const productsList = matchedProducts
+      .map(p => `• ${p.product_name} (${p.category}) - ${p.brand}`)
+      .join("\n");
+
+    // AI CALL
+    const aiResponse = await fetch(
+      "https://api.groq.com/openai/v1/chat/completions",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${process.env.GROQ_API_KEY}`
+        },
+        body: JSON.stringify({
+          model: "llama-3.3-70b-versatile",
+          messages: [
+            {
+              role: "user",
+              content: `Create a simple skincare routine for ${skinType} skin with concerns: ${concerns.join(", ")}. Include Morning, Night, and Weekly steps.`
+            }
+          ]
+        })
+      }
+    );
+
+    const aiData = await aiResponse.json();
+    console.log("AI RESPONSE:", aiData);
+
+    // SAFE ROUTINE EXTRACTION
+    let routine = "Routine could not be generated.";
+
+    if (
+      aiData &&
+      aiData.choices &&
+      aiData.choices.length > 0 &&
+      aiData.choices[0].message &&
+      aiData.choices[0].message.content
+    ) {
+      routine = aiData.choices[0].message.content;
+    }
+
+    // FINAL RESPONSE
+    const recommendation = `
+Recommended Products:
+
+${productsList}
+
+These products match your skin type (${skinType})
+and concerns (${concerns.join(", ")}).
+
+${routine}
+`;
+
     return res.status(200).json({ recommendation });
-  } catch (err) {
-    console.error("OpenAI call failed:", err);
-    // return a helpful error message in dev
-    const payload = { error: "OpenAI request failed" };
-    if (process.env.NODE_ENV === "development") payload.detail = String(err);
-    return res.status(500).json(payload);
+
+  } catch (error) {
+    console.error("FULL ERROR:", error);
+    res.status(500).json({
+      error: "Failed to process request",
+      detail: error.message
+    });
   }
 }
