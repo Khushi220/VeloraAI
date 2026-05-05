@@ -1,0 +1,1334 @@
+[
+  {
+    "Scenario_id": "S011",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Redness, Dry patches",
+    "product_id": "P001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "S011",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Redness, Dry patches",
+    "product_id": "P004",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S011",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Redness, Dry patches",
+    "product_id": "P006",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S011",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Redness, Dry patches",
+    "product_id": "P007",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S012",
+    "skin_type": "Combination",
+    "concerns": "Dullness, Uneven tone, Pigmentation",
+    "product_id": "P008",
+    "brand": "Minimalist",
+    "product_name": "Vitamin C 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S012",
+    "skin_type": "Combination",
+    "concerns": "Dullness, Uneven tone, Pigmentation",
+    "product_id": "P009",
+    "brand": "The Derma Co",
+    "product_name": "Alpha Arbutin 2%",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S012",
+    "skin_type": "Combination",
+    "concerns": "Dullness, Uneven tone, Pigmentation",
+    "product_id": "P005",
+    "brand": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S012",
+    "skin_type": "Combination",
+    "concerns": "Dullness, Uneven tone, Pigmentation",
+    "product_id": "P007",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S013",
+    "skin_type": "Combination",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "P011",
+    "brand": "COSRX",
+    "product_name": "Salicylic Acid Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "S013",
+    "skin_type": "Combination",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "P010",
+    "brand": "Paula’s Choice",
+    "product_name": "2% BHA Liquid",
+    "category": "Exfoliant"
+  },
+  {
+    "Scenario_id": "S013",
+    "skin_type": "Combination",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "P003",
+    "brand": "Minimalist",
+    "product_name": "Niacinamide 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S013",
+    "skin_type": "Combination",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "P012",
+    "brand": "Re’equil",
+    "product_name": "Ultra Matte SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S014",
+    "skin_type": "Combination",
+    "concerns": "Dry patches, Sensitivity, Dullness",
+    "product_id": "P001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "S014",
+    "skin_type": "Combination",
+    "concerns": "Dry patches, Sensitivity, Dullness",
+    "product_id": "P013",
+    "brand": "Minimalist",
+    "product_name": "Hyaluronic Acid + PGA",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S014",
+    "skin_type": "Combination",
+    "concerns": "Dry patches, Sensitivity, Dullness",
+    "product_id": "P006",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S014",
+    "skin_type": "Combination",
+    "concerns": "Dry patches, Sensitivity, Dullness",
+    "product_id": "P005",
+    "brand": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S015",
+    "skin_type": "Combination",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "P001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "S015",
+    "skin_type": "Combination",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "P014",
+    "brand": "The Derma Co",
+    "product_name": "Tranexamic Acid Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S015",
+    "skin_type": "Combination",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "P004",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S015",
+    "skin_type": "Combination",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "P007",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S016",
+    "skin_type": "Combination",
+    "concerns": "Fine lines, Dullness, Dehydration",
+    "product_id": "P015",
+    "brand": "Minimalist",
+    "product_name": "Granactive Retinoid 2%",
+    "category": "Treatment"
+  },
+  {
+    "Scenario_id": "S016",
+    "skin_type": "Combination",
+    "concerns": "Fine lines, Dullness, Dehydration",
+    "product_id": "P005",
+    "brand": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S016",
+    "skin_type": "Combination",
+    "concerns": "Fine lines, Dullness, Dehydration",
+    "product_id": "P006",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S016",
+    "skin_type": "Combination",
+    "concerns": "Fine lines, Dullness, Dehydration",
+    "product_id": "P007",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S017",
+    "skin_type": "Combination",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "P001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "S017",
+    "skin_type": "Combination",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "P003",
+    "brand": "Minimalist",
+    "product_name": "Niacinamide 5% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S017",
+    "skin_type": "Combination",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "P004",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S017",
+    "skin_type": "Combination",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "P012",
+    "brand": "Re’equil",
+    "product_name": "Ultra Matte SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S018",
+    "skin_type": "Combination",
+    "concerns": "Oiliness, Dullness, Pores",
+    "product_id": "P011",
+    "brand": "COSRX",
+    "product_name": "Salicylic Acid Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "S018",
+    "skin_type": "Combination",
+    "concerns": "Oiliness, Dullness, Pores",
+    "product_id": "P003",
+    "brand": "Minimalist",
+    "product_name": "Niacinamide 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S018",
+    "skin_type": "Combination",
+    "concerns": "Oiliness, Dullness, Pores",
+    "product_id": "P005",
+    "brand": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S018",
+    "skin_type": "Combination",
+    "concerns": "Oiliness, Dullness, Pores",
+    "product_id": "P012",
+    "brand": "Re’equil",
+    "product_name": "Ultra Matte SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S019",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Dehydration, Redness",
+    "product_id": "P001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "S019",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Dehydration, Redness",
+    "product_id": "P013",
+    "brand": "Minimalist",
+    "product_name": "Hyaluronic Acid + PGA",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S019",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Dehydration, Redness",
+    "product_id": "P006",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S019",
+    "skin_type": "Combination",
+    "concerns": "Sensitivity, Dehydration, Redness",
+    "product_id": "P007",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "S020",
+    "skin_type": "Combination",
+    "concerns": "Acne marks, Pigmentation, Uneven tone",
+    "product_id": "P008",
+    "brand": "Minimalist",
+    "product_name": "Vitamin C 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S020",
+    "skin_type": "Combination",
+    "concerns": "Acne marks, Pigmentation, Uneven tone",
+    "product_id": "P009",
+    "brand": "The Derma Co",
+    "product_name": "Alpha Arbutin 2%",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "S020",
+    "skin_type": "Combination",
+    "concerns": "Acne marks, Pigmentation, Uneven tone",
+    "product_id": "P005",
+    "brand": "Neutrogena",
+    "product_name": "Hydro Boost Water Gel",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "S020",
+    "skin_type": "Combination",
+    "concerns": "Acne marks, Pigmentation, Uneven tone",
+    "product_id": "P007",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O001",
+    "skin_type": "Oily",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "OP001",
+    "brand": "La Roche-Posay",
+    "product_name": "Effaclar Purifying Foaming Gel",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "O001",
+    "skin_type": "Oily",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "OP002",
+    "brand": "Paula’s Choice",
+    "product_name": "2% BHA Liquid",
+    "category": "Exfoliant"
+  },
+  {
+    "Scenario_id": "O001",
+    "skin_type": "Oily",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "OP003",
+    "brand": "Minimalist",
+    "product_name": "Niacinamide 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O001",
+    "skin_type": "Oily",
+    "concerns": "Acne, Pores, Oiliness",
+    "product_id": "OP004",
+    "brand": "Re’equil",
+    "product_name": "Ultra Matte SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O002",
+    "skin_type": "Oily",
+    "concerns": "Acne, Acne marks, Pigmentation",
+    "product_id": "OP005",
+    "brand": "Minimalist",
+    "product_name": "Vitamin C 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O002",
+    "skin_type": "Oily",
+    "concerns": "Acne, Acne marks, Pigmentation",
+    "product_id": "OP006",
+    "brand": "The Derma Co",
+    "product_name": "Alpha Arbutin 2%",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O002",
+    "skin_type": "Oily",
+    "concerns": "Acne, Acne marks, Pigmentation",
+    "product_id": "OP007",
+    "brand": "Neutrogena",
+    "product_name": "Oil-Free Moisture",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O002",
+    "skin_type": "Oily",
+    "concerns": "Acne, Acne marks, Pigmentation",
+    "product_id": "OP004",
+    "brand": "Re’equil",
+    "product_name": "Ultra Matte SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O003",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dullness, Uneven tone",
+    "product_id": "OP001",
+    "brand": "La Roche-Posay",
+    "product_name": "Effaclar Purifying Foaming Gel",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "O003",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dullness, Uneven tone",
+    "product_id": "OP005",
+    "brand": "Minimalist",
+    "product_name": "Vitamin C 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O003",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dullness, Uneven tone",
+    "product_id": "OP008",
+    "brand": "Plum",
+    "product_name": "Green Tea Oil-Free Moisturizer",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O003",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dullness, Uneven tone",
+    "product_id": "OP009",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Anti-Shine SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O004",
+    "skin_type": "Oily",
+    "concerns": "Sensitivity, Redness, Acne",
+    "product_id": "OP010",
+    "brand": "Cetaphil",
+    "product_name": "Oily Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "O004",
+    "skin_type": "Oily",
+    "concerns": "Sensitivity, Redness, Acne",
+    "product_id": "OP011",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O004",
+    "skin_type": "Oily",
+    "concerns": "Sensitivity, Redness, Acne",
+    "product_id": "OP007",
+    "brand": "Neutrogena",
+    "product_name": "Oil-Free Moisture",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O004",
+    "skin_type": "Oily",
+    "concerns": "Sensitivity, Redness, Acne",
+    "product_id": "OP009",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Anti-Shine SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O005",
+    "skin_type": "Oily",
+    "concerns": "Pores, Oiliness, Blackheads",
+    "product_id": "OP001",
+    "brand": "La Roche-Posay",
+    "product_name": "Effaclar Purifying Foaming Gel",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "O005",
+    "skin_type": "Oily",
+    "concerns": "Pores, Oiliness, Blackheads",
+    "product_id": "OP002",
+    "brand": "Paula’s Choice",
+    "product_name": "2% BHA Liquid",
+    "category": "Exfoliant"
+  },
+  {
+    "Scenario_id": "O005",
+    "skin_type": "Oily",
+    "concerns": "Pores, Oiliness, Blackheads",
+    "product_id": "OP003",
+    "brand": "Minimalist",
+    "product_name": "Niacinamide 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O005",
+    "skin_type": "Oily",
+    "concerns": "Pores, Oiliness, Blackheads",
+    "product_id": "OP008",
+    "brand": "Plum",
+    "product_name": "Green Tea Oil-Free Moisturizer",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O006",
+    "skin_type": "Oily",
+    "concerns": "Pigmentation, Uneven tone, Dullness",
+    "product_id": "OP005",
+    "brand": "Minimalist",
+    "product_name": "Vitamin C 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O006",
+    "skin_type": "Oily",
+    "concerns": "Pigmentation, Uneven tone, Dullness",
+    "product_id": "OP012",
+    "brand": "The Derma Co",
+    "product_name": "Tranexamic Acid Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O006",
+    "skin_type": "Oily",
+    "concerns": "Pigmentation, Uneven tone, Dullness",
+    "product_id": "OP007",
+    "brand": "Neutrogena",
+    "product_name": "Oil-Free Moisture",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O006",
+    "skin_type": "Oily",
+    "concerns": "Pigmentation, Uneven tone, Dullness",
+    "product_id": "OP009",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Anti-Shine SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O007",
+    "skin_type": "Oily",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "OP010",
+    "brand": "Cetaphil",
+    "product_name": "Oily Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "O007",
+    "skin_type": "Oily",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "OP011",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O007",
+    "skin_type": "Oily",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "OP003",
+    "brand": "Minimalist",
+    "product_name": "Niacinamide 5% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O007",
+    "skin_type": "Oily",
+    "concerns": "Acne, Sensitivity, Redness",
+    "product_id": "OP004",
+    "brand": "Re’equil",
+    "product_name": "Ultra Matte SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O008",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dehydration, Dullness",
+    "product_id": "OP010",
+    "brand": "Cetaphil",
+    "product_name": "Oily Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "O008",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dehydration, Dullness",
+    "product_id": "OP013",
+    "brand": "Minimalist",
+    "product_name": "Hyaluronic Acid + PGA",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O008",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dehydration, Dullness",
+    "product_id": "OP008",
+    "brand": "Plum",
+    "product_name": "Green Tea Oil-Free Moisturizer",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O008",
+    "skin_type": "Oily",
+    "concerns": "Oiliness, Dehydration, Dullness",
+    "product_id": "OP009",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Anti-Shine SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O009",
+    "skin_type": "Oily",
+    "concerns": "Early fine lines, Dullness, Acne",
+    "product_id": "OP014",
+    "brand": "Minimalist",
+    "product_name": "Retinol 0.3%",
+    "category": "Treatment"
+  },
+  {
+    "Scenario_id": "O009",
+    "skin_type": "Oily",
+    "concerns": "Early fine lines, Dullness, Acne",
+    "product_id": "OP003",
+    "brand": "Minimalist",
+    "product_name": "Niacinamide 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O009",
+    "skin_type": "Oily",
+    "concerns": "Early fine lines, Dullness, Acne",
+    "product_id": "OP007",
+    "brand": "Neutrogena",
+    "product_name": "Oil-Free Moisture",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O009",
+    "skin_type": "Oily",
+    "concerns": "Early fine lines, Dullness, Acne",
+    "product_id": "OP004",
+    "brand": "Re’equil",
+    "product_name": "Ultra Matte SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "O010",
+    "skin_type": "Oily",
+    "concerns": "Acne marks, Pigmentation, Pores",
+    "product_id": "OP005",
+    "brand": "Minimalist",
+    "product_name": "Vitamin C 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O010",
+    "skin_type": "Oily",
+    "concerns": "Acne marks, Pigmentation, Pores",
+    "product_id": "OP006",
+    "brand": "The Derma Co",
+    "product_name": "Alpha Arbutin 2%",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "O010",
+    "skin_type": "Oily",
+    "concerns": "Acne marks, Pigmentation, Pores",
+    "product_id": "OP008",
+    "brand": "Plum",
+    "product_name": "Green Tea Oil-Free Moisturizer",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "O010",
+    "skin_type": "Oily",
+    "concerns": "Acne marks, Pigmentation, Pores",
+    "product_id": "OP009",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Anti-Shine SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS001",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Irritation, Dryness",
+    "product_id": "SP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS001",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Irritation, Dryness",
+    "product_id": "SP002",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS001",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Irritation, Dryness",
+    "product_id": "SP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS001",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Irritation, Dryness",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS002",
+    "skin_type": "Sensitive",
+    "concerns": "Sensitivity, Dehydration, Tightness",
+    "product_id": "SP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS002",
+    "skin_type": "Sensitive",
+    "concerns": "Sensitivity, Dehydration, Tightness",
+    "product_id": "SP005",
+    "brand": "Minimalist",
+    "product_name": "Hyaluronic Acid + PGA",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS002",
+    "skin_type": "Sensitive",
+    "concerns": "Sensitivity, Dehydration, Tightness",
+    "product_id": "SP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS002",
+    "skin_type": "Sensitive",
+    "concerns": "Sensitivity, Dehydration, Tightness",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS003",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Acne, Sensitivity",
+    "product_id": "SP006",
+    "brand": "La Roche-Posay",
+    "product_name": "Toleriane Hydrating Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS003",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Acne, Sensitivity",
+    "product_id": "SP002",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS003",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Acne, Sensitivity",
+    "product_id": "SP007",
+    "brand": "Bioderma",
+    "product_name": "Atoderm Intensive Gel-Crème",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS003",
+    "skin_type": "Sensitive",
+    "concerns": "Redness, Acne, Sensitivity",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS004",
+    "skin_type": "Sensitive",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "SP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS004",
+    "skin_type": "Sensitive",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "SP008",
+    "brand": "The Derma Co",
+    "product_name": "Tranexamic Acid Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS004",
+    "skin_type": "Sensitive",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "SP002",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS004",
+    "skin_type": "Sensitive",
+    "concerns": "Pigmentation, Uneven tone, Sensitivity",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS005",
+    "skin_type": "Sensitive",
+    "concerns": "Barrier damage, Dryness, Redness",
+    "product_id": "SP006",
+    "brand": "La Roche-Posay",
+    "product_name": "Toleriane Hydrating Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS005",
+    "skin_type": "Sensitive",
+    "concerns": "Barrier damage, Dryness, Redness",
+    "product_id": "SP009",
+    "brand": "Minimalist",
+    "product_name": "Marula Oil Moisturizer",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS005",
+    "skin_type": "Sensitive",
+    "concerns": "Barrier damage, Dryness, Redness",
+    "product_id": "SP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS005",
+    "skin_type": "Sensitive",
+    "concerns": "Barrier damage, Dryness, Redness",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS006",
+    "skin_type": "Sensitive",
+    "concerns": "Dullness, Dehydration, Sensitivity",
+    "product_id": "SP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS006",
+    "skin_type": "Sensitive",
+    "concerns": "Dullness, Dehydration, Sensitivity",
+    "product_id": "SP005",
+    "brand": "Minimalist",
+    "product_name": "Hyaluronic Acid + PGA",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS006",
+    "skin_type": "Sensitive",
+    "concerns": "Dullness, Dehydration, Sensitivity",
+    "product_id": "SP007",
+    "brand": "Bioderma",
+    "product_name": "Atoderm Intensive Gel-Crème",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS006",
+    "skin_type": "Sensitive",
+    "concerns": "Dullness, Dehydration, Sensitivity",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS007",
+    "skin_type": "Sensitive",
+    "concerns": "Acne marks, Redness, Sensitivity",
+    "product_id": "SP006",
+    "brand": "La Roche-Posay",
+    "product_name": "Toleriane Hydrating Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS007",
+    "skin_type": "Sensitive",
+    "concerns": "Acne marks, Redness, Sensitivity",
+    "product_id": "SP008",
+    "brand": "The Derma Co",
+    "product_name": "Tranexamic Acid Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS007",
+    "skin_type": "Sensitive",
+    "concerns": "Acne marks, Redness, Sensitivity",
+    "product_id": "SP002",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS007",
+    "skin_type": "Sensitive",
+    "concerns": "Acne marks, Redness, Sensitivity",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS008",
+    "skin_type": "Sensitive",
+    "concerns": "Environmental damage, Dryness, Redness",
+    "product_id": "SP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS008",
+    "skin_type": "Sensitive",
+    "concerns": "Environmental damage, Dryness, Redness",
+    "product_id": "SP010",
+    "brand": "Avene",
+    "product_name": "Thermal Spring Water Spray",
+    "category": "Mist"
+  },
+  {
+    "Scenario_id": "SENS008",
+    "skin_type": "Sensitive",
+    "concerns": "Environmental damage, Dryness, Redness",
+    "product_id": "SP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS008",
+    "skin_type": "Sensitive",
+    "concerns": "Environmental damage, Dryness, Redness",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS009",
+    "skin_type": "Sensitive",
+    "concerns": "Early fine lines, Dehydration, Sensitivity",
+    "product_id": "SP006",
+    "brand": "La Roche-Posay",
+    "product_name": "Toleriane Hydrating Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS009",
+    "skin_type": "Sensitive",
+    "concerns": "Early fine lines, Dehydration, Sensitivity",
+    "product_id": "SP011",
+    "brand": "Minimalist",
+    "product_name": "Peptides + Hyaluronic Acid",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "SENS009",
+    "skin_type": "Sensitive",
+    "concerns": "Early fine lines, Dehydration, Sensitivity",
+    "product_id": "SP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS009",
+    "skin_type": "Sensitive",
+    "concerns": "Early fine lines, Dehydration, Sensitivity",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "SENS010",
+    "skin_type": "Sensitive",
+    "concerns": "Post-procedure, Irritation, Redness",
+    "product_id": "SP006",
+    "brand": "La Roche-Posay",
+    "product_name": "Toleriane Hydrating Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "SENS010",
+    "skin_type": "Sensitive",
+    "concerns": "Post-procedure, Irritation, Redness",
+    "product_id": "SP012",
+    "brand": "Bioderma",
+    "product_name": "Cicabio Cream",
+    "category": "Treatment"
+  },
+  {
+    "Scenario_id": "SENS010",
+    "skin_type": "Sensitive",
+    "concerns": "Post-procedure, Irritation, Redness",
+    "product_id": "SP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "SENS010",
+    "skin_type": "Sensitive",
+    "concerns": "Post-procedure, Irritation, Redness",
+    "product_id": "SP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios Mineral SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "DRY001",
+    "skin_type": "Dry",
+    "concerns": "Dryness, Tightness, Dehydration",
+    "product_id": "DP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "DRY001",
+    "skin_type": "Dry",
+    "concerns": "Dryness, Tightness, Dehydration",
+    "product_id": "DP002",
+    "brand": "Minimalist",
+    "product_name": "Hyaluronic Acid + PGA",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "DRY001",
+    "skin_type": "Dry",
+    "concerns": "Dryness, Tightness, Dehydration",
+    "product_id": "DP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "DRY001",
+    "skin_type": "Dry",
+    "concerns": "Dryness, Tightness, Dehydration",
+    "product_id": "DP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "DRY002",
+    "skin_type": "Dry",
+    "concerns": "Dry patches, Flakiness, Sensitivity",
+    "product_id": "DP005",
+    "brand": "Bioderma",
+    "product_name": "Atoderm Gentle Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "DRY002",
+    "skin_type": "Dry",
+    "concerns": "Dry patches, Flakiness, Sensitivity",
+    "product_id": "DP006",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "DRY002",
+    "skin_type": "Dry",
+    "concerns": "Dry patches, Flakiness, Sensitivity",
+    "product_id": "DP007",
+    "brand": "Cetaphil",
+    "product_name": "Moisturising Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "DRY002",
+    "skin_type": "Dry",
+    "concerns": "Dry patches, Flakiness, Sensitivity",
+    "product_id": "DP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "DRY003",
+    "skin_type": "Dry",
+    "concerns": "Dullness, Uneven tone, Dryness",
+    "product_id": "DP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "DRY003",
+    "skin_type": "Dry",
+    "concerns": "Dullness, Uneven tone, Dryness",
+    "product_id": "DP008",
+    "brand": "Minimalist",
+    "product_name": "Vitamin C 10% Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "DRY003",
+    "skin_type": "Dry",
+    "concerns": "Dullness, Uneven tone, Dryness",
+    "product_id": "DP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "DRY003",
+    "skin_type": "Dry",
+    "concerns": "Dullness, Uneven tone, Dryness",
+    "product_id": "DP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "DRY004",
+    "skin_type": "Dry",
+    "concerns": "Pigmentation, Dryness, Sensitivity",
+    "product_id": "DP005",
+    "brand": "Bioderma",
+    "product_name": "Atoderm Gentle Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "DRY004",
+    "skin_type": "Dry",
+    "concerns": "Pigmentation, Dryness, Sensitivity",
+    "product_id": "DP009",
+    "brand": "The Derma Co",
+    "product_name": "Tranexamic Acid Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "DRY004",
+    "skin_type": "Dry",
+    "concerns": "Pigmentation, Dryness, Sensitivity",
+    "product_id": "DP006",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "DRY004",
+    "skin_type": "Dry",
+    "concerns": "Pigmentation, Dryness, Sensitivity",
+    "product_id": "DP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "DRY005",
+    "skin_type": "Dry",
+    "concerns": "Barrier damage, Redness, Dryness",
+    "product_id": "DP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "DRY005",
+    "skin_type": "Dry",
+    "concerns": "Barrier damage, Redness, Dryness",
+    "product_id": "DP010",
+    "brand": "Bioderma",
+    "product_name": "Cicabio Cream",
+    "category": "Treatment"
+  },
+  {
+    "Scenario_id": "DRY005",
+    "skin_type": "Dry",
+    "concerns": "Barrier damage, Redness, Dryness",
+    "product_id": "DP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "DRY005",
+    "skin_type": "Dry",
+    "concerns": "Barrier damage, Redness, Dryness",
+    "product_id": "DP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "DRY006",
+    "skin_type": "Dry",
+    "concerns": "Dehydration, Fine lines, Dullness",
+    "product_id": "DP001",
+    "brand": "Cetaphil",
+    "product_name": "Gentle Skin Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "DRY006",
+    "skin_type": "Dry",
+    "concerns": "Dehydration, Fine lines, Dullness",
+    "product_id": "DP011",
+    "brand": "Minimalist",
+    "product_name": "Peptides + Hyaluronic Acid",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "DRY006",
+    "skin_type": "Dry",
+    "concerns": "Dehydration, Fine lines, Dullness",
+    "product_id": "DP007",
+    "brand": "Cetaphil",
+    "product_name": "Moisturising Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "DRY006",
+    "skin_type": "Dry",
+    "concerns": "Dehydration, Fine lines, Dullness",
+    "product_id": "DP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  },
+  {
+    "Scenario_id": "DRY007",
+    "skin_type": "Dry",
+    "concerns": "Sensitivity, Redness, Dryness",
+    "product_id": "DP005",
+    "brand": "Bioderma",
+    "product_name": "Atoderm Gentle Cleanser",
+    "category": "Cleanser"
+  },
+  {
+    "Scenario_id": "DRY007",
+    "skin_type": "Dry",
+    "concerns": "Sensitivity, Redness, Dryness",
+    "product_id": "DP006",
+    "brand": "Dr Sheth’s",
+    "product_name": "Cica & Ceramide Serum",
+    "category": "Serum"
+  },
+  {
+    "Scenario_id": "DRY007",
+    "skin_type": "Dry",
+    "concerns": "Sensitivity, Redness, Dryness",
+    "product_id": "DP003",
+    "brand": "CeraVe",
+    "product_name": "Moisturizing Cream",
+    "category": "Moisturizer"
+  },
+  {
+    "Scenario_id": "DRY007",
+    "skin_type": "Dry",
+    "concerns": "Sensitivity, Redness, Dryness",
+    "product_id": "DP004",
+    "brand": "La Roche-Posay",
+    "product_name": "Anthelios SPF 50",
+    "category": "Sunscreen"
+  }
+]
