@@ -1,9 +1,12 @@
 import fs from "fs";
 import path from "path";
 import * as XLSX from "xlsx";
+import Sentiment from "sentiment";
 
 export default async function handler(req, res) {
   try {
+    const sentiment = new Sentiment();
+
     const { formData } = req.body;
 
     const skinType = formData.skinType;
@@ -36,9 +39,34 @@ export default async function handler(req, res) {
       });
     }
 
+    // 🧠 SENTIMENT SCORING
+    const scoredProducts = matchedProducts.map((p) => {
+      const reviewText = `
+${p.product_name} is a great product for ${p.skin_type}.
+It helps with ${p.concerns}.
+`;
+      const score = sentiment.analyze(reviewText).score;
+
+      return {
+        ...p,
+        sentimentScore: score
+      };
+    });
+
+    // 🔥 SORT BY BEST SENTIMENT
+    const sortedProducts = scoredProducts.sort(
+      (a, b) => b.sentimentScore - a.sentimentScore
+    );
+
+    // TAKE TOP PRODUCTS
+    const topProducts = sortedProducts.slice(0, 5);
+
     // BUILD PRODUCT LIST
-    const productsList = matchedProducts
-      .map(p => `• ${p.product_name} (${p.category}) - ${p.brand}`)
+    const productsList = topProducts
+      .map(
+        (p) =>
+          `• ${p.product_name} (${p.category}) - ${p.brand} ⭐ ${p.sentimentScore}`
+      )
       .join("\n");
 
     // AI CALL
@@ -65,22 +93,17 @@ export default async function handler(req, res) {
     const aiData = await aiResponse.json();
     console.log("AI RESPONSE:", aiData);
 
-    // SAFE ROUTINE EXTRACTION
     let routine = "Routine could not be generated.";
 
     if (
-      aiData &&
-      aiData.choices &&
-      aiData.choices.length > 0 &&
-      aiData.choices[0].message &&
-      aiData.choices[0].message.content
+      aiData?.choices?.[0]?.message?.content
     ) {
       routine = aiData.choices[0].message.content;
     }
 
     // FINAL RESPONSE
     const recommendation = `
-Recommended Products:
+Recommended Products (Top Rated):
 
 ${productsList}
 
